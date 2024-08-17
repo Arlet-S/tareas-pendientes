@@ -15,7 +15,7 @@ let id;
 const FECHA = new Date ();
 fecha.innerHTML = FECHA.toLocaleDateString('es-MX',{
     weekday: 'long',
-    month: 'short',
+    month: 'long',
     day: 'numeric'
 });
 // DOM 
@@ -33,11 +33,6 @@ function agregarTarea(tarea,id,hecho,eliminar) {
                     <p class="tarea-lista text ${LINE}">${tarea}</p>
                     <i id="${id}" data="eliminar" class="bi bi-x"></i>
                 </li>`
-                /*<li>
-                    <i id="0" data="hecho" class="bi bi-record-circle"></i>
-                    <p class="tarea-lista text tachado">Tarea 1:p</p>
-                    <i id="0" data="eliminar" class="bi bi-x"></i>
-                </li>*/
 
                 lista.insertAdjacentHTML("beforeend",elemento);
 

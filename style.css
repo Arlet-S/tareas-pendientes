@@ -8,39 +8,48 @@ body{
     font-family: "Comic Neue", cursive;
     font-weight: 400;
     font-style: normal;
-    background-color: rgba(236, 189, 145, 0.925);
+    background-color: rgba(247, 209, 232, 0.925);
     /*background-image: ;*/
     justify-content: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     height: 100vh;
-    color: #6d1f05;
+    color: #1b1311;
     display: flex;
     justify-content: center;
 }
 
+
 .contenedor{
-    max-width: 80%;
+    /*max-width: 80%;
     width: 400px;
     height: 400px;
     margin: 0 auto;
-    padding: 40px;
-    
-    
-    
+    /**/
+    max-width: 100%;
+  width: 330px;
+  height: auto;
+  margin: 10px 10px auto 3px;
+  padding: 25px;
+  border: 2px solid white;
+  background-color: #ce8eda65;
+  border-radius: 15px;
+  text-align: center;
+  
 }
+
 .encabezado{
     padding: 10px 0 5px 0;
 }
 .agregar{
-    background-color: rgb(211, 104, 104);
+    background-color: rgb(224, 151, 194);
     border-radius: 15px;
     height: 70px;
     display: flex;
     align-items: center;
     padding: 10px;
-    gap: 70px;
+    gap: 15px;
 }
 .agregar input{
     width: 100%;
@@ -68,6 +77,8 @@ body{
     margin-bottom: 20px;
     font-size: 23px;
     align-items: center;
+    /**/
+    margin-top: 10px;
 }
 .tareas li{
     background-color: beige;
